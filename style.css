@@ -172,8 +172,8 @@ h2 {
   object-fit: top cover;
 }
 
-.grid-container #item-1 {
-  grid-column: 2 / 1 span;
+.grid-container #item1 {
+  grid-column: 1 / 2 span;
   grid-row: 3;
 
 }
