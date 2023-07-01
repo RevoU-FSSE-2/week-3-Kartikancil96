@@ -31,7 +31,6 @@
       <span class="circle-pink">99+</span>
       <span id="dark-mode-switch">
         <p>Dark Mode</p>
-
         <label class="switch">
           <input id="checkbox-dark-mode" onchange="toggleDarkMode()" type="checkbox" />
           <span class="slider round"></span>
@@ -46,9 +45,11 @@
     </ul>
   </nav>
   <header class="full-screen" id="header">
+    <img src="img/cfc_bg1.jpg" alt="Chibi Maruko Chan">
     <h1>Ohayo CMC Fan Club!</h1>
     <p>Chibi Maruko-chan ( Japanese: ちびまる子ちゃん, "Little Maruko -chan ") is a shōjo manga series written and illustrated
       by Momoko Sakura.</p>
+
   </header>
   <main>
     <section id="Maruko-photos">
@@ -68,7 +69,7 @@
         </div>
         <div id="item1">
           <picture>
-            <source media="(min-width:650px )" srcset="img/cfc7.jpeg">
+            <source media="(min-width:650px )" srcset="img/cfc_bg.jpeg">
             <img src="img/cfc5.jpg" alt="Chibi Maruko-chan">
           </picture>
         </div>
@@ -120,7 +121,10 @@
             <label for="fullName">Nama Lengkap:</label>
             <input id="fullName" type="text" required />
           </div>
-
+          <div>
+            <label for="join date"> Join Date</label>
+            <input type="date" id="join date" name="Join Date" required>
+          </div>
           <div>
             <label for="email">E-mail:</label>
             <input id="email" type="email" required />
