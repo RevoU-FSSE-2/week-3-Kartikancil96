@@ -15,7 +15,7 @@ body {
 }
 
 section {
-  margin: 0 18px;
+  margin: 9px 9px;
 }
 
 section.full-screen {
@@ -113,15 +113,15 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 36px;
+  padding-top: 10px;
 }
 
 header img {
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-color: 0.8;
   width: auto;
-  height: auto;
+  height: 50%;
   padding: 1vw 2vw;
 }
 
@@ -161,12 +161,12 @@ nav .circle-pink {
 }
 
 header h1 {
-  margin: 36px;
+  margin: 10px;
 }
 
 header p {
-  margin: 0;
-  color: white;
+  margin: 10px;
+  color: black;
 }
 
 img {
@@ -200,13 +200,13 @@ h2 {
   justify-content: center;
 }
 
-#hobby-article .flex-container figure {
+#hobby-article .rangkuman figure {
   text-align: center;
   margin-right: 20;
   gap: 8px;
 }
 
-#hobby-article .flex-container img {
+#hobby-article .rangkuman img {
   height: 240px;
   width: auto;
 }
